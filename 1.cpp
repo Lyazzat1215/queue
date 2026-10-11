@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
     queue<int> fck;
-    cout <<"size "<<fck.size()<<endl;
 
     fck.push(5);
     fck.push(8);
@@ -13,8 +12,8 @@ int main(){
     cout <<"size "<<fck.size()<<endl;
 
 
-    if (fck.empty()){
-        cout<<"fck is emty"<<endl;
+    if (!fck.empty()){
+        cout<<"fck is not empty"<<endl;
     }
     return 0;
 }
