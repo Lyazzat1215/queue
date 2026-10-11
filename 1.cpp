@@ -8,6 +8,8 @@ int main(){
     cout <<"size "<<fck.size()<<endl;
 
     fck.push(5);
+    fck.push(8);
+    fck.push(10);
     cout <<"size "<<fck.size()<<endl;
 
 
